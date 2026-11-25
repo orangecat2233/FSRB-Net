@@ -1,0 +1,9 @@
+dataset: CWRU
+num_classes: 10
+conditions: [0HP, 1HP, 2HP, 3HP]
+sampling_rate: 12000
+window_size: 512
+samples_per_class: 200
+source_test_ratio: 0.20
+target_val_ratio: 0.20
+image_size: 128

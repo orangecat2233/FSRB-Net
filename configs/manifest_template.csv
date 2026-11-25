@@ -1,0 +1,4 @@
+condition,class_id,mat_file,variable,channel,axis
+65Hz,0,65Hz/record_healthy.xls,,,X
+65Hz,1,65Hz/record_fault.xls,,,X
+0HP,0,0HP/class_0/record.mat,X097_DE_time,,

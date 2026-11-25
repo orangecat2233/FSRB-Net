@@ -1,0 +1,16 @@
+training:
+  epochs: 30
+  batch_size: 40
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  lambda_da: 1.0
+  image_size: 128
+  num_workers: 4
+  normalize: false
+  pretrained: false
+  seed: 0
+
+preprocessing:
+  image_size: 128
+  source_train_ratio: 0.8
+  overlap: 0.0

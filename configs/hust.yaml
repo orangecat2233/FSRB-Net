@@ -1,0 +1,9 @@
+dataset: HUST
+num_classes: 9
+conditions: [65Hz, 70Hz, 75Hz, 80Hz]
+sampling_rate: 25600
+window_size: 1024
+samples_per_class: 200
+source_test_ratio: 0.20
+target_val_ratio: 0.20
+image_size: 128
