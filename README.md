@@ -8,7 +8,12 @@ python -m pip install -r requirements.txt
 
 ## 1. Data Preparation
 
-Download HUSTbearing and CWRU and place the raw datasets in `data/HUST/raw/` and `data/CWRU/raw/`, respectively. Check the datasets before generating images.
+The raw HUSTbearing and CWRU datasets are provided in this repository. Their original sources are:
+
+- HUSTbearing: https://github.com/CHAOZHAO-1/HUSTbearing-dataset
+- CWRU: https://engineering.case.edu/bearingdatacenter/download-data-file
+
+The datasets are organized in `data/HUST/raw/` and `data/CWRU/raw/`, respectively. Check the datasets before generating images.
 
 ```bash
 python -u run_prepare.py --dataset HUST --raw-dir ./data/HUST/raw --output-dir ./data/HUST/images/cwt --image-way cwt --scan-only
